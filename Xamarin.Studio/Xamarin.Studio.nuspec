@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<metadata>
+<version>5.2.1</version>
+<authors>Xamarin</authors>
+<owners>Valdetero</owners>
+<iconUrl>https://github.com/valdetero/Chocolatey-Packages/raw/master/Xamarin.Studio/xamarin-studio.png</iconUrl>
+<projectUrl>http://xamarin.com/download</projectUrl>
+<licenseUrl>http://xamarin.com/licensing</licenseUrl>
+<id>Xamarin.Studio</id>
+<title>Xamarin Installer</title>
+<requireLicenseAcceptance>false</requireLicenseAcceptance>
+<description>With a C# shared codebase, developers can use Xamarin to write native iOS, Android, and Windows apps with native user interfaces and share code across multiple platforms.</description>
+<summary>Xamarin Studio</summary>
+<tags>Xamarin C# Mono iOS Android</tags>
+</metadata>
+</package>
