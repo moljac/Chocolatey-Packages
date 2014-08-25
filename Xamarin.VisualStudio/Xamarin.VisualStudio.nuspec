@@ -14,4 +14,8 @@
 <summary>Xamarin for Visual Studio</summary>
 <tags>Xamarin C# Mono iOS Android Visual Studio</tags>
 </metadata>
+<files>
+  <file src="xamarin-studio.png" /> 
+  <file src="tools\ChocolateyInstall.ps1" />
+</files>
 </package>

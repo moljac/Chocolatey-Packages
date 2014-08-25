@@ -14,4 +14,8 @@
 <summary>Xamarin Installer</summary>
 <tags>Xamarin C# Mono iOS Android</tags>
 </metadata>
+<files>
+  <file src="xamarin.png" /> 
+  <file src="tools\ChocolateyInstall.ps1" />
+</files>
 </package>

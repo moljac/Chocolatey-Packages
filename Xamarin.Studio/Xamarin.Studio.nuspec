@@ -14,4 +14,8 @@
 <summary>Xamarin Studio</summary>
 <tags>Xamarin C# Mono iOS Android</tags>
 </metadata>
+<files>
+  <file src="xamarin-studio.png" /> 
+  <file src="tools\ChocolateyInstall.ps1" />
+</files>
 </package>
