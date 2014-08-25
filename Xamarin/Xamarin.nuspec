@@ -4,7 +4,7 @@
 <version>5.2.1.2014082501</version>
 <authors>Xamarin</authors>
 <owners>Valdetero</owners>
-<iconUrl>https://github.com/valdetero/Chocolatey-Packages/raw/master/Xamarin/xamarin.png</iconUrl>
+<iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin/xamarin.png</iconUrl>
 <projectUrl>http://xamarin.com/download</projectUrl>
 <licenseUrl>http://xamarin.com/licensing</licenseUrl>
 <id>xamarin</id>
