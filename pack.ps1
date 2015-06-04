@@ -19,4 +19,12 @@ $xvs = Dir | Sort CreationTime -Descending | Select Name -First 1
 if($push -eq "Y" -or $push -eq "y"){
   cpush $xvs.Name
 }
+
+cd ..\Xamarin
+cpack Xamarin.nuspec
+$xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
+
+if($push -eq "Y" -or $push -eq "y"){
+  cpush $xvs.Name
+}
 PAUSE
