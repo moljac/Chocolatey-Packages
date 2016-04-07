@@ -7,6 +7,7 @@
 <iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.Studio/xamarin-studio.png</iconUrl>
 <projectUrl>http://xamarin.com/download</projectUrl>
 <licenseUrl>http://xamarin.com/licensing</licenseUrl>
+<packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
 <id>xamarin-studio</id>
 <title>Xamarin Studio</title>
 <requireLicenseAcceptance>false</requireLicenseAcceptance>
