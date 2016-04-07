@@ -1,4 +1,4 @@
-$version = '5.9.3.1-0'
+$version = '5.10.3.51-0'
 
 $packageName = 'xamarin.studio' 
 $installerType = 'msi' 
