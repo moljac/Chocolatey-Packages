@@ -12,7 +12,7 @@
 <requireLicenseAcceptance>false</requireLicenseAcceptance>
 <description>With a C# shared codebase, developers can use Xamarin to write native iOS, Android, and Windows apps with native user interfaces and share code across multiple platforms.</description>
 <summary>Xamarin for Visual Studio</summary>
-<tags>Xamarin C# Mono iOS Android VisualStudio Trial</tags>
+<tags>Xamarin C# Mono iOS Android VisualStudio Trial Admin</tags>
 <releaseNotes>https://developer.xamarin.com/releases/vs/xamarin.vs_4/xamarin.vs_4.0/</releaseNotes>
 </metadata>
 <files>
