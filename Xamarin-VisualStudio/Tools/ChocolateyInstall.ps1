@@ -1,4 +1,4 @@
-$version = '3.11.590'
+$version = '4.0.3.214'
 
 $packageName = 'xamarin.visualstudio' 
 $installerType = 'msi' 
