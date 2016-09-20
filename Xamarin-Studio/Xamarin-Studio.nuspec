@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 <metadata>
-<version>5.10.3.51</version>
+<version>6.1.0.5441</version>
 <authors>Xamarin</authors>
 <owners>Valdetero</owners>
 <iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.Studio/xamarin-studio.png</iconUrl>
