@@ -1,8 +1,8 @@
-$version = '5.10.3.51-0'
+$version = '6.1.0.5441'
 
 $packageName = 'xamarin.studio' 
 $installerType = 'msi' 
-$url = 'http://download.xamarin.com/studio/Windows/XamarinStudio-' + $version + '.msi' 
+$url = 'http://bosstoragemirror.blob.core.windows.net/wrench/monodevelop-windows-cycle8/68/68292d1ab289911c815ddc715dd7cc29a9752f9f/XamarinStudio-' + $version + '.msi' 
 $silentArgs = "/Passive /NoRestart /Log $env:temp\xamarin.log" 
 $validExitCodes = @(0, 3010)
 
