@@ -31,15 +31,15 @@ if($push -eq "Y" -or $push -eq "y"){
 }
 cd ..\
 
-cd .\products-additional\Xamarin-Android-Player\
-cpack Xamarin-Android-Player.nuspec
+
+cd .\products-additional\microsoft-build-tools-2013\
+cpack microsoft-build-tools-2013.nuspec
 $xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
 
 if($push -eq "Y" -or $push -eq "y"){
   cpush $xvs.Name
 }
 cd ..\..\
-
 
 cd .\products-additional\Xamarin-iOS-Simulator\
 cpack Xamarin-iOS-Simulator.nuspec
@@ -60,6 +60,7 @@ if($push -eq "Y" -or $push -eq "y"){
 }
 cd ..\..\
 
+
 cd .\products-additional\Xamarin-Profiler\
 cpack Xamarin-Profiler.nuspec
 $xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
@@ -79,6 +80,35 @@ if($push -eq "Y" -or $push -eq "y"){
 }
 cd ..\..\
 
+
+cd .\products-additional\Xamarin-Android-Player\
+cpack Xamarin-Android-Player.nuspec
+$xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
+
+if($push -eq "Y" -or $push -eq "y"){
+  cpush $xvs.Name
+}
+cd ..\..\
+
+
+cd .\products-additional\Xamarin-Android-Player-32b\
+cpack Xamarin-Android-Player-32b.nuspec
+$xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
+
+if($push -eq "Y" -or $push -eq "y"){
+  cpush $xvs.Name
+}
+cd ..\..\
+
+
+cd .\products-additional\Xamarin-Android-Player-32b\
+cpack Xamarin-Android-Player-32b.nuspec
+$xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
+
+if($push -eq "Y" -or $push -eq "y"){
+  cpush $xvs.Name
+}
+cd ..\..\
 
 
 PAUSE
