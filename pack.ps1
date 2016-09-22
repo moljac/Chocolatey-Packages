@@ -101,8 +101,8 @@ if($push -eq "Y" -or $push -eq "y"){
 cd ..\..\
 
 
-cd .\products-additional\Xamarin-Android-Player-32b\
-cpack Xamarin-Android-Player-32b.nuspec
+cd .\products-additional\Xamarin-Android-Player-64b\
+cpack Xamarin-Android-Player-64b.nuspec
 $xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
 
 if($push -eq "Y" -or $push -eq "y"){
