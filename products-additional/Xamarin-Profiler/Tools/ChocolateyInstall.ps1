@@ -1,4 +1,4 @@
-$version = '0.34.2-6'
+$version = '0.34.2.6'
 
 $packageName = 'xamarin.profiler' 
 $installerType = 'msi' 
