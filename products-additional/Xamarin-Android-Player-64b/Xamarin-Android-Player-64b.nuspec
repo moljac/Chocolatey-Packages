@@ -9,7 +9,7 @@
 <licenseUrl>http://xamarin.com/licensing</licenseUrl>
 <packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
 <id>xamarin-android-player-64b</id>
-<title>Xamarin Android Player</title>
+<title>Xamarin Android Player 64b</title>
 <requireLicenseAcceptance>false</requireLicenseAcceptance>
 <description>With a C# shared codebase, developers can use Xamarin to write native iOS, Android, and Windows apps with native user interfaces and share code across multiple platforms.</description>
 <summary>Xamarin Android Player 64b</summary>
