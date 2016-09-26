@@ -15,6 +15,9 @@
 <summary>Xamarin Studio</summary>
 <tags>Xamarin C# Mono iOS Android Trial Admin</tags>
 <releaseNotes>http://developer.xamarin.com/releases/studio/xamarin.studio_5.10/xamarin.studio_5.10/</releaseNotes>
+  <dependencies>
+      <dependency id="microsoft-build-tools-2013" />
+    </dependencies>
 </metadata>
 <files>
   <file src="tools\ChocolateyInstall.ps1" />
