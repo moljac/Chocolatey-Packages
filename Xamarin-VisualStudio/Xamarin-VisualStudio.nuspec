@@ -15,6 +15,9 @@
 <summary>Xamarin for Visual Studio</summary>
 <tags>Xamarin C# Mono iOS Android VisualStudio Trial Admin</tags>
 <releaseNotes>https://developer.xamarin.com/releases/vs/xamarin.vs_4/xamarin.vs_4.0/</releaseNotes>
+    <dependencies>
+      <dependency id="visualstudio2015community" />
+    </dependencies>
 </metadata>
 <files>
   <file src="tools\ChocolateyInstall.ps1" />
