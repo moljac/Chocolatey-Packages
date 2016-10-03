@@ -9,11 +9,11 @@
 <licenseUrl>http://xamarin.com/licensing</licenseUrl>
 <packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
 <id>microsoft-build-tools-2013</id>
-<title>Microsoft Build Tools 2013 (for Xamarin Studio)</title>
+<title>Microsoft Build Tools 2013</title>
 <requireLicenseAcceptance>false</requireLicenseAcceptance>
-<description>Microsoft Build Tools 2013 (for Xamarin Studio)</description>
-<summary>Xamarin Android Player</summary>
-<tags>Xamarin C# Mono iOS Android VisualStudio Trial Admin</tags>
+<description>Microsoft Build Tools 2013</description>
+<summary>Microsoft Build Tools 2013</summary>
+<tags>Microsoft Build Tools 2013</tags>
 <releaseNotes>https://www.microsoft.com/en-us/download/details.aspx?id=40760</releaseNotes>
 </metadata>
 <files>

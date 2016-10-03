@@ -15,8 +15,9 @@
 <summary>Xamarin Studio</summary>
 <tags>Xamarin C# Mono iOS Android Trial Admin</tags>
 <releaseNotes>https://developer.xamarin.com/releases/studio/xamarin.studio_6.1/xamarin.studio_6.1/</releaseNotes>
-  <dependencies>
+    <dependencies>
       <dependency id="microsoft-build-tools-2013" />
+      <dependency id="gtksharp" />
     </dependencies>
 </metadata>
 <files>

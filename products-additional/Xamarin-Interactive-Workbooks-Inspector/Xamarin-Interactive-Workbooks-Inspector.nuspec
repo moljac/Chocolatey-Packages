@@ -15,6 +15,9 @@
 <summary>Xamarin for Visual Studio</summary>
 <tags>Xamarin C# Mono iOS Android VisualStudio Trial Admin</tags>
 <releaseNotes>https://developer.xamarin.com/releases/inspector/preview/inspector-0.10.0/</releaseNotes>
+    <dependencies>
+      <dependency id="xamarin" />
+    </dependencies>
 </metadata>
 <files>
   <file src="tools\ChocolateyInstall.ps1" />
