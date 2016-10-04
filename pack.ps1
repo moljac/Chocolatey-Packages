@@ -2,6 +2,8 @@ param(
   [string]$push = "N"
 )
 
+chocolatey update chocolatey
+
 cd $PSScriptRoot
 
 cd Xamarin-Studio
