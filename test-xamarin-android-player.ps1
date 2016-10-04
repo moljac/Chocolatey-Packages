@@ -1,3 +1,4 @@
+$ErrorActionPreference = "Stop"
 
 cd $PSScriptRoot
 
@@ -8,4 +9,4 @@ choco install -y `
     -source .\products-additional\Xamarin-Android-Player\xamarin-android-player.0.6.5.nupkg
     
     
-PAUSE
+# PAUSE

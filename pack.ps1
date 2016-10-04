@@ -1,6 +1,9 @@
-param(
+param
+(
   [string]$push = "N"
 )
+
+$ErrorActionPreference = "Stop"
 
 chocolatey update chocolatey
 
@@ -113,4 +116,4 @@ if($push -eq "Y" -or $push -eq "y"){
 cd ..\..\
 
 
-PAUSE
+#PAUSE

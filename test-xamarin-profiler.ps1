@@ -1,3 +1,4 @@
+$ErrorActionPreference = "Stop"
 
 cd $PSScriptRoot
 
@@ -9,4 +10,4 @@ choco install -y `
     
     
     
-PAUSE
+#PAUSE
