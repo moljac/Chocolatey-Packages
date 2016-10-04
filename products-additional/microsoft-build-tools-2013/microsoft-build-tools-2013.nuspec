@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 <metadata>
 <version>2013.1</version>
-<authors>Xamarin</authors>
+<authors>Microsoft</authors>
 <owners>moljac</owners>
 <iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.VisualStudio/xamarin-studio.png</iconUrl>
-<projectUrl>http://xamarin.com/download</projectUrl>
-<licenseUrl>http://xamarin.com/licensing</licenseUrl>
+<projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=40760</projectUrl>
+<licenseUrl>https://www.microsoft.com/en-us/download/details.aspx?id=40760</licenseUrl>
 <packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
 <id>microsoft-build-tools-2013</id>
 <title>Microsoft Build Tools 2013</title>
