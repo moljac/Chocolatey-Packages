@@ -9,6 +9,7 @@ $validExitCodes = @(0, 3010)
 Install-ChocolateyPackage `
     $packageName `
     $installerType `
+	--not-silent `
     $silentArgs `
     -Url      $url `
     -Checksum       $checksum `
