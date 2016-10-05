@@ -1,3 +1,4 @@
+$ErrorActionPreference = "Stop"
 
 cd $PSScriptRoot
 
@@ -8,4 +9,4 @@ choco install -y `
     -source .\products-additional\Xamarin-Interactive-Workbooks-Inspector\xamarin-interactive-aka-workbooks-inspector.0.10.0.0.nupkg
     
     
-PAUSE
+#PAUSE

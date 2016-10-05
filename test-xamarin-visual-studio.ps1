@@ -1,3 +1,4 @@
+$ErrorActionPreference = "Stop"
 
 cd $PSScriptRoot
     
@@ -8,4 +9,4 @@ choco install -y `
     -source .\Xamarin-VisualStudio\xamarin-visualstudio.4.2.0.695.nupkg
 
     
-PAUSE
+#PAUSE

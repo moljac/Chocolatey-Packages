@@ -1,6 +1,11 @@
-param(
+param
+(
   [string]$push = "N"
 )
+
+$ErrorActionPreference = "Stop"
+
+chocolatey update chocolatey
 
 cd $PSScriptRoot
 
@@ -111,4 +116,4 @@ if($push -eq "Y" -or $push -eq "y"){
 cd ..\..\
 
 
-PAUSE
+#PAUSE
