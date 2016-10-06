@@ -1,22 +1,26 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-<metadata>
-<version>2013.1</version>
-<authors>Microsoft</authors>
-<owners>moljac</owners>
-<iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.VisualStudio/xamarin-studio.png</iconUrl>
-<projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=40760</projectUrl>
-<licenseUrl>https://www.microsoft.com/en-us/download/details.aspx?id=40760</licenseUrl>
-<packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
-<id>microsoft-build-tools-2013</id>
-<title>Microsoft Build Tools 2013</title>
-<requireLicenseAcceptance>false</requireLicenseAcceptance>
-<description>Microsoft Build Tools 2013</description>
-<summary>Microsoft Build Tools 2013</summary>
-<tags>Microsoft Build Tools 2013</tags>
-<releaseNotes>https://www.microsoft.com/en-us/download/details.aspx?id=40760</releaseNotes>
-</metadata>
-<files>
-  <file src="tools\ChocolateyInstall.ps1" />
-</files>
+  <metadata>
+    <version>2013.1</version>
+    <authors>Microsoft</authors>
+    <owners>moljac</owners>
+    <iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.VisualStudio/xamarin-studio.png</iconUrl>
+    <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=40760</projectUrl>
+    <licenseUrl>https://www.microsoft.com/en-us/download/details.aspx?id=40760</licenseUrl>
+    <packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
+    <id>microsoft-build-tools-2013</id>
+    <title>Microsoft Build Tools 2013</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft Build Tools 2013</description>
+    <summary>Microsoft Build Tools 2013</summary>
+    <tags>Microsoft Build Tools 2013</tags>
+    <projectSourceUrl>https://www.microsoft.com/en-us/download/details.aspx?id=40760</projectSourceUrl>
+    <docsUrl>https://www.microsoft.com/en-us/download/details.aspx?id=40760</docsUrl>
+    <mailingListUrl>https://www.microsoft.com/en-us/download/details.aspx?id=40760</mailingListUrl>
+    <bugTrackerUrl>https://www.microsoft.com/en-us/download/details.aspx?id=40760</bugTrackerUrl>
+    <releaseNotes>https://www.microsoft.com/en-us/download/details.aspx?id=40760</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\ChocolateyInstall.ps1" />
+  </files>
 </package>
