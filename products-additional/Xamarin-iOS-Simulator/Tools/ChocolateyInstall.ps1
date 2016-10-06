@@ -1,4 +1,4 @@
-$version = '0.10.0.5'
+$version = '0.10.0.6'
 
 $packageName = 'xamarin.iossimulator' 
 $installerType = 'msi' 
