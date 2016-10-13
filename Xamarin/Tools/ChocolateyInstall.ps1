@@ -9,18 +9,14 @@ $checksumtype = 'sha256'
 $silentArgs = "/VERYSILENT /NORESTART /NOCANCEL /PASSIVE /Log $env:temp\xamarin.log" 
 $validExitCodes = @(0, 3010)
  
-#Thanks to dtgm and the GitHub package for ideas.
 $ahkExe = 'AutoHotKey'
 $ahkFile = Join-Path $toolsDir "install-xamarin.ahk"
 $ahkProc = Start-Process `
 				-FilePath $ahkExe `
                 -ArgumentList $ahkFile `
-				-PassThru
- 
-$ahkId = $ahkProc.Id
-Write-Debug "$ahkExe start time:`t$($ahkProc.StartTime.ToShortTimeString())"
-Write-Debug "Process ID:`t$ahkId"
- 
+				-PassThru `
+				-Verb RunAs
+				
 Install-ChocolateyPackage `
     $packageName `
     $installerType `
@@ -30,6 +26,11 @@ Install-ChocolateyPackage `
     -ChecksumType   $checksumtype `
 	-validExitCodes $validExitCodes `
 
+ 
+$ahkId = $ahkProc.Id
+Write-Debug "$ahkExe start time:`t$($ahkProc.StartTime.ToShortTimeString())"
+Write-Debug "Process ID:`t$ahkId"
+ 
 
 #    --not-silent `
 #   --verbose
