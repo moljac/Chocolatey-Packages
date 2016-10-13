@@ -3,7 +3,9 @@
   <metadata>
     <version>6.1.1.15</version>
     <authors>Xamarin</authors>
-    <owners>Valdetero</owners>
+    <owners>Valdetero, moljac</owners>
+	<packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
+	<preferredIssuesUrl>https://github.com/valdetero/Chocolatey-Packages/issues</preferredIssuesUrl>	
     <iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.Studio/xamarin-studio.png</iconUrl>
     <projectUrl>http://xamarin.com/download</projectUrl>
     <licenseUrl>http://xamarin.com/licensing</licenseUrl>
