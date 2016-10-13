@@ -12,14 +12,18 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>With a C# shared codebase, developers can use Xamarin to write native iOS, Android, and Windows apps with native user interfaces and share code across multiple platforms.</description>
     <summary>Xamarin Installer</summary>
-    <tags>Xamarin C# Mono iOS Android Trial</tags>
+    <tags>Xamarin C# Mono iOS Android Trial notSilent</tags>
     <projectSourceUrl>https://github.com/xamarin</projectSourceUrl>
     <docsUrl>https://developer.xamarin.com/</docsUrl>
     <mailingListUrl>http://open.xamarin.com/community</mailingListUrl>
     <bugTrackerUrl>https://bugzilla.xamarin.com/</bugTrackerUrl>  
     <releaseNotes>https://developer.xamarin.com/releases/vs/xamarin.vs_4/</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\ChocolateyInstall.ps1" />
+    <file src="tools\install-xamarin.ahk" />
   </files>
 </package>
