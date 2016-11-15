@@ -1,9 +1,9 @@
-$version = '0.10.0.0'
+$version = '0.99.2.0'
 
-$packageName = 'xamarin.interctive.aka.workbooks.inspector' 
+$packageName = 'xamarin.interactive.aka.workbooks.inspector' 
 $installerType = 'msi' 
-$url = 'https://download.xamarin.com/inspector/XamarinInteractive-' + $version + '.msi' 
-$checksum32 = 'FD9FB9CFECB8380B6EF0E615E729F01BBA30A2C4AB8252B9665C7675AC59CA85' 
+$url = 'https://dl.xamarin.com/interactive/XamarinInteractive-' + $version + '.msi' 
+$checksum32 = '3C0C84A69627EE3C71D716F5012ED9453591F91617EE8B15B0953EC3E8E84F4A' 
 $checksumtype32 = 'sha256'
 $silentArgs = "/Passive /NoRestart /Log $env:temp\xamarin.log" 
 $validExitCodes = @(0, 3010)
