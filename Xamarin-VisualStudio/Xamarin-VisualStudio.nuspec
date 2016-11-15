@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>4.2.0.695</version>
+    <version>4.2.1.52</version>
     <authors>Xamarin</authors>
     <owners>Valdetero, moljac</owners>
+	<!--
 	<packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
 	<preferredIssuesUrl>https://github.com/valdetero/Chocolatey-Packages/issues</preferredIssuesUrl>	
+	-->
     <iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.VisualStudio/xamarin-studio.png</iconUrl>
     <projectUrl>http://xamarin.com/download</projectUrl>
     <licenseUrl>http://xamarin.com/licensing</licenseUrl>
@@ -22,6 +24,11 @@
     <bugTrackerUrl>https://bugzilla.xamarin.com/describecomponents.cgi?product=Visual%20Studio%20Extensions</bugTrackerUrl>
     <releaseNotes>https://developer.xamarin.com/releases/vs/xamarin.vs_4/xamarin.vs_4.0/</releaseNotes>
     <dependencies>
+        <!--
+        unable to resolve dependency
+      <dependency id="KB2919442" />
+      <dependency id="KB2919355" />
+      -->
       <dependency id="visualstudio2015community" />
     </dependencies>
   </metadata>
