@@ -1,9 +1,9 @@
-$version = '6.1.1.15-0'
+$version = '6.1.2.44-0'
 
 $packageName = 'xamarin.studio' 
 $installerType = 'msi' 
-$url = 'http://download.xamarin.com/studio/Windows/XamarinStudio-' + $version + '.msi'
-$checksum = '87C89FCD5AFAE614C41CF2D79E21CB6D6E2EA51C917705100C83DAFA54BD005A' 
+$url = 'http://dl.xamarin.com/MonoDevelop/Windows/XamarinStudio-' + $version + '.msi'
+$checksum = '310D43A8443CC9AE9DB8AF7B25C657472544EFF651D45256FD1B15FF06E15A5A' 
 $checksumtype = 'sha256' 
 $silentArgs = "/Passive /NoRestart /Log $env:temp\xamarin.log" 
 $validExitCodes = @(0, 3010)
@@ -16,3 +16,4 @@ Install-ChocolateyPackage `
     -Checksum       $checksum `
     -ChecksumType   $checksumtype `
 	-validExitCodes $validExitCodes
+
