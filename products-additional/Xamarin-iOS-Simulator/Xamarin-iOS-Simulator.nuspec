@@ -1,25 +1,29 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-<metadata>
-<version>0.10.0.5</version>
-<authors>Xamarin</authors>
-<owners>moljac</owners>
-<iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.VisualStudio/xamarin-studio.png</iconUrl>
-<projectUrl>http://xamarin.com/download</projectUrl>
-<licenseUrl>http://xamarin.com/licensing</licenseUrl>
-<packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
-<id>xamarin-ios-simulator</id>
-<title>Xamarin iOS Simulator for Windows</title>
-<requireLicenseAcceptance>false</requireLicenseAcceptance>
-<description>With a C# shared codebase, developers can use Xamarin to write native iOS, Android, and Windows apps with native user interfaces and share code across multiple platforms.</description>
-<summary>Xamarin for Visual Studio</summary>
-<tags>Xamarin C# Mono iOS Android VisualStudio Trial Admin</tags>
-<releaseNotes>https://releases.xamarin.com/preview-ios-simulator-for-windows-update-4/</releaseNotes>
+  <metadata>
+    <version>0.10.1.1</version>
+    <authors>Xamarin</authors>
+    <owners>moljac</owners>
+    <iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.VisualStudio/xamarin-studio.png</iconUrl>
+    <projectUrl>http://xamarin.com/download</projectUrl>
+    <licenseUrl>http://xamarin.com/licensing</licenseUrl>
+    <packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
+    <id>xamarin-ios-simulator</id>
+    <title>Xamarin iOS Simulator for Windows</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>With a C# shared codebase, developers can use Xamarin to write native iOS, Android, and Windows apps with native user interfaces and share code across multiple platforms.</description>
+    <summary>Xamarin for Visual Studio</summary>
+    <tags>Xamarin C# Mono iOS Android VisualStudio Trial Admin</tags>
+    <projectSourceUrl>https://github.com/xamarin</projectSourceUrl>
+    <docsUrl>https://developer.xamarin.com/</docsUrl>
+    <mailingListUrl>http://open.xamarin.com/community</mailingListUrl>
+    <bugTrackerUrl>https://bugzilla.xamarin.com/describecomponents.cgi?product=Visual%20Studio%20Extensions</bugTrackerUrl>
+    <releaseNotes>https://releases.xamarin.com/preview-ios-simulator-for-windows-update-4/</releaseNotes>
     <dependencies>
       <dependency id="xamarin" />
     </dependencies>
-</metadata>
-<files>
-  <file src="tools\ChocolateyInstall.ps1" />
-</files>
+  </metadata>
+  <files>
+    <file src="tools\ChocolateyInstall.ps1" />
+  </files>
 </package>

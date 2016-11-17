@@ -1,11 +1,14 @@
-$version = '4.2.0.695'
+$version = '4.2.1.52'
+
+choco install -y KB2919442
+choco install -y KB2919355
 
 $packageName = 'xamarin.visualstudio' 
 $installerType = 'msi' 
-$url = 'http://download.xamarin.com/XamarinforVisualStudio/Windows/Xamarin.VisualStudio_' + $version + '.msi'
-$checksum = 'E24F714A8DCCE5E1477D67293B450153BF1501215FE1DE0C356AFFB48B01F4F0' 
+$url = 'http://dl.xamarin.com/XamarinforVisualStudio/Windows/Xamarin.VisualStudio_' + $version + '.msi'
+$checksum = 'BB005BCA59C3ED5B5877AE75B2915E88DFFCB6D18AB84D0102E7C1115494F715' 
 $checksumtype = 'sha256' 
-$silentArgs = "/Passive /NoRestart /Log $env:temp\xamarin.log" 
+$silentArgs = "/Passive /NoRestart /Log $env:temp\xamarin-visualstudio.log" 
 $validExitCodes = @(0, 3010)
 
 Install-ChocolateyPackage `
@@ -15,4 +18,4 @@ Install-ChocolateyPackage `
     -Url      $url `
     -Checksum       $checksum `
     -ChecksumType   $checksumtype `
-	-validExitCodes $validExitCodes
+    -validExitCodes $validExitCodes

@@ -1,26 +1,35 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-<metadata>
-<version>0.4.2</version>
-<authors>Xamarin</authors>
-<owners>moljac</owners>
-<iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.VisualStudio/xamarin-studio.png</iconUrl>
-<projectUrl>http://xamarin.com/download</projectUrl>
-<licenseUrl>http://xamarin.com/licensing</licenseUrl>
-<packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
-<id>xamarin-test-recorder</id>
-<title>Xamarin Test Recorder for Visual Studio</title>
-<requireLicenseAcceptance>false</requireLicenseAcceptance>
-<description>With a C# shared codebase, developers can use Xamarin to write native iOS, Android, and Windows apps with native user interfaces and share code across multiple platforms.</description>
-<summary>Xamarin for Visual Studio</summary>
-<tags>Xamarin C# Mono iOS Android VisualStudio Trial Admin</tags>
-<releaseNotes>https://visualstudiogallery.msdn.microsoft.com/f9171f80-291e-480c-8003-8bf5c575f2dc/</releaseNotes>
-  <dependencies>
+  <metadata>
+    <version>0.4.2</version>
+    <authors>Xamarin</authors>
+    <owners>moljac</owners>
+    <iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.VisualStudio/xamarin-studio.png</iconUrl>
+    <projectUrl>http://xamarin.com/download</projectUrl>
+    <licenseUrl>http://xamarin.com/licensing</licenseUrl>
+    <packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
+    <id>xamarin-test-recorder</id>
+    <title>Xamarin Test Recorder for Visual Studio</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      A tool for recording automated user interface tests (Xamarin.UITest)
+
+      The Xamarin Test Recorder reduces the effort and the time it takes to create automated UI tests 
+      that can be submitted to Xamarin Test Cloud.
+    </description>
+    <summary>Xamarin for Visual Studio</summary>
+    <tags>Xamarin C# Mono iOS Android VisualStudio Trial Admin</tags>
+    <projectSourceUrl>https://developer.xamarin.com/guides/testcloud/testrecorder/</projectSourceUrl>
+    <docsUrl>https://developer.xamarin.com/guides/testcloud/testrecorder/visual-studio/</docsUrl>
+    <mailingListUrl>http://open.xamarin.com/community</mailingListUrl>
+    <bugTrackerUrl>https://bugzilla.xamarin.com/describecomponents.cgi?product=Visual%20Studio%20Extensions</bugTrackerUrl>
+    <releaseNotes>https://visualstudiogallery.msdn.microsoft.com/f9171f80-291e-480c-8003-8bf5c575f2dc/</releaseNotes>
+    <dependencies>
       <dependency id="visualstudio2015enterprise" />
       <dependency id="xamarin" />
     </dependencies>
-</metadata>
-<files>
-  <file src="tools\ChocolateyInstall.ps1" />
-</files>
+  </metadata>
+  <files>
+    <file src="tools\ChocolateyInstall.ps1" />
+  </files>
 </package>

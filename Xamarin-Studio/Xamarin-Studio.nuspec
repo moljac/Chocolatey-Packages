@@ -1,26 +1,34 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-<metadata>
-<version>6.1.1.15</version>
-<authors>Xamarin</authors>
-<owners>Valdetero</owners>
-<iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.Studio/xamarin-studio.png</iconUrl>
-<projectUrl>http://xamarin.com/download</projectUrl>
-<licenseUrl>http://xamarin.com/licensing</licenseUrl>
-<packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
-<id>xamarin-studio</id>
-<title>Xamarin Studio</title>
-<requireLicenseAcceptance>false</requireLicenseAcceptance>
-<description>With a C# shared codebase, developers can use Xamarin to write native iOS, Android, and Windows apps with native user interfaces and share code across multiple platforms.</description>
-<summary>Xamarin Studio</summary>
-<tags>Xamarin C# Mono iOS Android Trial Admin</tags>
-<releaseNotes>https://developer.xamarin.com/releases/studio/xamarin.studio_6.1/xamarin.studio_6.1/</releaseNotes>
+  <metadata>
+    <version>6.1.2.44</version>
+    <authors>Xamarin</authors>
+    <owners>Valdetero, moljac</owners>
+	<!--
+	<packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
+	<preferredIssuesUrl>https://github.com/valdetero/Chocolatey-Packages/issues</preferredIssuesUrl>	
+	-->
+    <iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.Studio/xamarin-studio.png</iconUrl>
+    <projectUrl>http://xamarin.com/download</projectUrl>
+    <licenseUrl>http://xamarin.com/licensing</licenseUrl>
+    <packageSourceUrl>https://github.com/valdetero/Chocolatey-Packages</packageSourceUrl>
+    <id>xamarin-studio</id>
+    <title>Xamarin Studio</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>With a C# shared codebase, developers can use Xamarin to write native iOS, Android, and Windows apps with native user interfaces and share code across multiple platforms.</description>
+    <summary>Xamarin Studio</summary>
+    <tags>Xamarin C# Mono iOS Android Trial Admin</tags>
+    <projectSourceUrl>https://github.com/mono/monodevelop</projectSourceUrl>
+    <docsUrl>https://developer.xamarin.com/</docsUrl>
+    <mailingListUrl>http://open.xamarin.com/community</mailingListUrl>
+    <bugTrackerUrl>https://bugzilla.xamarin.com/describecomponents.cgi?product=Xamarin%20Studio</bugTrackerUrl>
+    <releaseNotes>https://developer.xamarin.com/releases/studio/xamarin.studio_6.1/xamarin.studio_6.1/</releaseNotes>
     <dependencies>
       <dependency id="microsoft-build-tools-2013" />
       <dependency id="gtksharp" />
     </dependencies>
-</metadata>
-<files>
-  <file src="tools\ChocolateyInstall.ps1" />
-</files>
+  </metadata>
+  <files>
+    <file src="tools\ChocolateyInstall.ps1" />
+  </files>
 </package>

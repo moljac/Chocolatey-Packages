@@ -9,8 +9,12 @@ choco uninstall -y `
 	
 	
 choco uninstall -y `
+	autohotkey.portable `
     xamarin
 
+choco install -y `
+	autohotkey.portable
+	
 choco install -y `
     xamarin `
     -source .\Xamarin\xamarin.4.0.nupkg
