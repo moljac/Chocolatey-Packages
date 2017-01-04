@@ -1,9 +1,9 @@
-$version = '0.10.1.1'
+$version = '1.0.0.13'
 
 $packageName = 'xamarin.iossimulator' 
 $installerType = 'msi' 
 $url = 'https://dl.xamarin.com/xamarin-simulator/Xamarin.Simulator.Installer.' + $version + '.msi' 
-$checksum32 = 'C59A5D8693C208E8E893C08D2D0B2E35EC24CF28A8E928982910545C18E51280' 
+$checksum32 = '98A1DC2E739638044A55356B7C246EE677F2ABB3D9EB5D420FE47487D9EF4A42' 
 $checksumtype32 = 'sha256'
 $silentArgs = "/Passive /NoRestart /Log $env:temp\xamarin-ios-simulator.log" 
 $validExitCodes = @(0, 3010)
