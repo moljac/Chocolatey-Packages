@@ -1,9 +1,9 @@
-$version = '0.38.0-0'
+$version = '1.0.4-18'
 
 $packageName = 'xamarin.profiler' 
 $installerType = 'msi' 
 $url = 'https://dl.xamarin.com/profiler/XamarinProfiler.Windows.Installer.'  + $version + '.msi' 
-$checksum32 = '6E62B335622B60A8BD0F4F074F5617669BA18E9F7C59A403E855DC8EFBDE1848' 
+$checksum32 = 'CE0A1971E902B52137B041B4617139CBE5BE03E41053370271D57A570AADC5E9' 
 
 $checksumtype32 = 'sha256'
 $silentArgs = "/Passive /NoRestart /Log $env:temp\xamarin.profiler.log" 
