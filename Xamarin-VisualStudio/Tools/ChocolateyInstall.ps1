@@ -1,7 +1,9 @@
 $version = '4.2.2.6'
 
-choco install -y KB2919442
-choco install -y KB2919355
+# not allowed 2017-01
+# dependency in nuspec! 
+# choco install -y KB2919442
+# choco install -y KB2919355
 
 $packageName = 'xamarin.visualstudio' 
 $installerType = 'msi' 

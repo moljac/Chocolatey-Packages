@@ -24,12 +24,12 @@
     <bugTrackerUrl>https://bugzilla.xamarin.com/describecomponents.cgi?product=Visual%20Studio%20Extensions</bugTrackerUrl>
     <releaseNotes>https://developer.xamarin.com/releases/vs/xamarin.vs_4/xamarin.vs_4.0/</releaseNotes>
     <dependencies>
-        <!--
+	<!--
         unable to resolve dependency
-      <dependency id="KB2919442" />
-      <dependency id="KB2919355" />
-      -->
-      <dependency id="visualstudio2015community" />
+	-->
+      <dependency id="KB2919442" version="[1.0.20160915,)" />
+      <dependency id="KB2919355" version="[1.0.20160915,)" />
+      <dependency id="visualstudio2015community" version="[2015.03.02,)" />
     </dependencies>
   </metadata>
   <files>
