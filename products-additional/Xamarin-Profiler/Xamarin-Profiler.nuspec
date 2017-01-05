@@ -19,14 +19,14 @@
       getting them out the door.
     </description>
     <summary>Xamarin Profiler</summary>
-    <tags>Xamarin C# Mono iOS Android VisualStudio Profiler</tags>
+    <tags>Xamarin C# Mono iOS Android VisualStudio Profiler admin</tags>
     <projectSourceUrl>https://github.com/xamarin</projectSourceUrl>
     <docsUrl>https://www.xamarin.com/profiler</docsUrl>
     <mailingListUrl>http://open.xamarin.com/community</mailingListUrl>
     <bugTrackerUrl>https://bugzilla.xamarin.com/enter_bug.cgi?product=Profiler</bugTrackerUrl>
     <releaseNotes>https://developer.xamarin.com/releases/profiler/preview/profiler-0.36.0</releaseNotes>
     <dependencies>
-      <dependency id="xamarin" />
+      <dependency id="xamarin" version="[4.0,)" />
     </dependencies>
   </metadata>
   <files>
