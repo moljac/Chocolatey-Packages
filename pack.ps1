@@ -5,7 +5,7 @@ param
 
 $ErrorActionPreference = "Stop"
 
-chocolatey update chocolatey
+chocolatey update -y chocolatey
 
 cd $PSScriptRoot
 
@@ -20,6 +20,33 @@ cd ..\
 
 cd .\Xamarin-VisualStudio
 cpack Xamarin-VisualStudio.nuspec
+$xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
+
+if($push -eq "Y" -or $push -eq "y"){
+#  cpush $xvs.Name
+}
+cd ..\
+
+cd .\Xamarin-VisualStudio2015Community
+cpack Xamarin-VisualStudio2015Community.nuspec
+$xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
+
+if($push -eq "Y" -or $push -eq "y"){
+#  cpush $xvs.Name
+}
+cd ..\
+
+cd .\Xamarin-VisualStudio2015Professional
+cpack Xamarin-VisualStudio2015Professional.nuspec
+$xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
+
+if($push -eq "Y" -or $push -eq "y"){
+#  cpush $xvs.Name
+}
+cd ..\
+
+cd .\Xamarin-VisualStudio2015Enterprise
+cpack Xamarin-VisualStudio2015Enterprise.nuspec
 $xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
 
 if($push -eq "Y" -or $push -eq "y"){
@@ -116,4 +143,13 @@ if($push -eq "Y" -or $push -eq "y"){
 cd ..\..\
 
 
-#PAUSE
+If ($?)
+{
+	Write-Host "Press any key to continue ..."
+	$x = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+}
+Else
+{
+	Write-Host "Press any key to continue ..."
+	$x = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+}
