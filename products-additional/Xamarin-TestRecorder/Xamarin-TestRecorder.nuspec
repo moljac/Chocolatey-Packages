@@ -25,8 +25,8 @@
     <bugTrackerUrl>https://bugzilla.xamarin.com/describecomponents.cgi?product=Visual%20Studio%20Extensions</bugTrackerUrl>
     <releaseNotes>https://visualstudiogallery.msdn.microsoft.com/f9171f80-291e-480c-8003-8bf5c575f2dc/</releaseNotes>
     <dependencies>
-      <dependency id="visualstudio2015enterprise" />
-      <dependency id="xamarin" />
+      <dependency id="visualstudio2015enterprise" version="[2015.03.02,)" />
+      <dependency id="xamarin" version="[4.0,)" />
     </dependencies>
   </metadata>
   <files>
