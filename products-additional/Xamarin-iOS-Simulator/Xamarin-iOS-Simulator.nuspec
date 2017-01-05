@@ -20,7 +20,7 @@
     <bugTrackerUrl>https://bugzilla.xamarin.com/describecomponents.cgi?product=Visual%20Studio%20Extensions</bugTrackerUrl>
     <releaseNotes>https://releases.xamarin.com/preview-ios-simulator-for-windows-update-4/</releaseNotes>
     <dependencies>
-      <dependency id="xamarin" />
+      <dependency id="xamarin" version="[4.0,)" />
     </dependencies>
   </metadata>
   <files>
