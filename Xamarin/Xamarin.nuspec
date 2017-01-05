@@ -23,7 +23,7 @@
     <bugTrackerUrl>https://bugzilla.xamarin.com/</bugTrackerUrl>  
     <releaseNotes>https://developer.xamarin.com/releases/vs/xamarin.vs_4/</releaseNotes>
     <dependencies>
-      <dependency id="autohotkey.portable" />
+      <dependency id="autohotkey.portable" version="[1.1.20.00,)" />
     </dependencies>
   </metadata>
   <files>

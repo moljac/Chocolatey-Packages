@@ -4,6 +4,7 @@ $toolsDir   = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $installerType = 'exe' 
 $url = 'http://download.xamarin.com/Installer/Windows/XamarinInstaller.exe' 
 $checksum = '981924CD0CC80204791FCB9B7BC271B5829A890E96FD138BA979A1EDD5ED9FA3'
+
 $checksumtype = 'sha256' 
 $silentArgs = "/VERYSILENT /NORESTART /NOCANCEL /PASSIVE /Log $env:temp\xamarin.log" 
 $validExitCodes = @(0, 3010)
