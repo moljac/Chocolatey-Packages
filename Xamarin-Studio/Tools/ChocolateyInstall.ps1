@@ -3,7 +3,8 @@ $version = '6.1.3.19'
 $packageName = 'xamarin.studio' 
 $installerType = 'msi' 
 $url = 'http://dl.xamarin.com/MonoDevelop/Windows/XamarinStudio-' + $version + '.msi'
-$checksum = '310D43A8443CC9AE9DB8AF7B25C657472544EFF651D45256FD1B15FF06E15A5A' 
+$checksum = '5BCD048BD4139E0E597A467B5045EEE38EF53B338548F55B4674069979D2A101'
+
 $checksumtype = 'sha256' 
 $silentArgs = "/Passive /NoRestart /Log $env:temp\xamarin.log" 
 $validExitCodes = @(0, 3010)

@@ -24,8 +24,8 @@
     <bugTrackerUrl>https://bugzilla.xamarin.com/describecomponents.cgi?product=Xamarin%20Studio</bugTrackerUrl>
     <releaseNotes>https://developer.xamarin.com/releases/studio/xamarin.studio_6.1/xamarin.studio_6.1/</releaseNotes>
     <dependencies>
-      <dependency id="microsoft-build-tools-2013" />
-      <dependency id="gtksharp" />
+      <dependency id="microsoft-build-tools-2013" version="[2013.1,)" />
+      <dependency id="gtksharp" version="[2.12.26,)"/>
     </dependencies>
   </metadata>
   <files>
