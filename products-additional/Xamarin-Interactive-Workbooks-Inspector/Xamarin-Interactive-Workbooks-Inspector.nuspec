@@ -20,7 +20,7 @@
     <bugTrackerUrl>https://bugzilla.xamarin.com/describecomponents.cgi?product=Visual%20Studio%20Extensions</bugTrackerUrl>
     <releaseNotes>https://developer.xamarin.com/releases/inspector/preview/inspector-0.10.0/</releaseNotes>
     <dependencies>
-      <dependency id="xamarin" />
+      <dependency id="xamarin" version="[4.0,)" />
     </dependencies>
   </metadata>
   <files>
