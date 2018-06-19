@@ -115,5 +115,13 @@ if($push -eq "Y" -or $push -eq "y"){
 }
 cd ..\..\
 
+cd .\products-additional\Azure.Machine.Learning.Workbench\
+cpack Azure.Machine.Learning.Workbench.nuspec
+$xvs = Dir | Sort CreationTime -Descending | Select Name -First 1 
+
+if($push -eq "Y" -or $push -eq "y"){
+  cpush $xvs.Name
+}
+cd ..\..\
 
 #PAUSE
