@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="i_machine-learning.600x640.svg">
+  <defs
+     id="defs4">
+    <style
+       id="style3339">.cls-1{fill:url(#radial-gradient);}.cls-2{fill:url(#radial-gradient-2);}.cls-3{fill:url(#radial-gradient-3);}.cls-4{fill:url(#radial-gradient-4);}</style>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.76 -2104)"
+       r="23.44"
+       cy="2101.86"
+       cx="24.04"
+       id="radial-gradient">
+      <stop
+         id="stop3342"
+         stop-color="#0e90cf"
+         offset="0" />
+      <stop
+         id="stop3344"
+         stop-color="#006daa"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.76,-2104)"
+       r="29.47"
+       cy="2151.5"
+       cx="30.72"
+       id="radial-gradient-2">
+      <stop
+         id="stop3347"
+         stop-color="#1a447a"
+         offset="0" />
+      <stop
+         id="stop3349"
+         stop-color="#163e68"
+         offset="0.27" />
+      <stop
+         id="stop3351"
+         stop-color="#103651"
+         offset="0.72" />
+      <stop
+         id="stop3353"
+         stop-color="#0e3348"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.76,-2104)"
+       r="29.65"
+       cy="2151.79"
+       cx="0.25"
+       id="radial-gradient-3">
+      <stop
+         id="stop3356"
+         stop-color="#49bdea"
+         offset="0" />
+      <stop
+         id="stop3358"
+         stop-color="#2ea4de"
+         offset="0.36" />
+      <stop
+         id="stop3360"
+         stop-color="#178ed3"
+         offset="0.75" />
+      <stop
+         id="stop3362"
+         stop-color="#0e86cf"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       xlink:href="#radial-gradient"
+       r="18.61"
+       cy="2131.97"
+       cx="42.3"
+       id="radial-gradient-4" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#radial-gradient"
+       id="radialGradient3400"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.76,-2104)"
+       cx="24.04"
+       cy="2101.86"
+       r="23.44" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-479.28571"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1000"
+     inkscape:window-height="682"
+     inkscape:window-x="572"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3394"
+       transform="matrix(10.666667,0,0,10,37.2381,192.93363)"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18">
+      <rect
+         id="rect3367"
+         height="24.02"
+         width="15.96"
+         x="23.959999"
+         class="cls-1"
+         y="0"
+         style="fill:url(#radialGradient3400)" />
+      <polygon
+         id="polygon3369"
+         points="62,48.03 58.04,64 58.04,64 5.96,64 2,48.03 "
+         class="cls-2"
+         style="fill:url(#radial-gradient-2)" />
+      <polygon
+         id="polygon3371"
+         points="40.04,24.02 5.96,64 5.96,64 2,48.03 23.96,24.02 "
+         class="cls-3"
+         style="fill:url(#radial-gradient-3)" />
+      <polygon
+         id="polygon3373"
+         points="62,48.03 58.04,64 58.04,64 34.04,39.98 44,27.98 "
+         class="cls-4"
+         style="fill:url(#radial-gradient-4)" />
+    </g>
+  </g>
+</svg>

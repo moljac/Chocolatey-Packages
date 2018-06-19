@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>0.4.2</version>
+    <authors>Microsoft</authors>
+    <owners>moljac</owners>
+    <iconUrl>https://cdn.rawgit.com/valdetero/Chocolatey-Packages/dc4c7d41433ce2be79dd235de9e14f3f7633c10b/Xamarin.VisualStudio/xamarin-studio.png</iconUrl>
+    <projectUrl>https://docs.microsoft.com/en-us/azure/machine-learning/service/quickstart-installation</projectUrl>
+    <licenseUrl>https://rserverdistribution.blob.core.windows.net/production/Installer/eulas/d505170e413143a68c771eb62113a9ec/license.htm</licenseUrl>
+    <packageSourceUrl>https://github.com/moljac/Chocolatey-Packages</packageSourceUrl>
+    <id>azure-machine-learning-workbench-preview</id>
+    <title>Azure Machine Learning Workbench (Preview)</title>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>
+      Azure Machine Learning Workbench
+
+      Azure Machine Learning services (preview) are an integrated, end-to-end data science 
+      and advanced analytics solution. It helps professional data scientists prepare data, 
+      develop experiments, and deploy models at cloud scale.
+    </description>
+    <summary>Azure Machine Learning Workbench (Preview)</summary>
+    <tags>Azure Machine Learning Workbench Preview</tags>
+    <projectSourceUrl>https://docs.microsoft.com/en-us/azure/machine-learning/service/</projectSourceUrl>
+    <docsUrl>https://docs.microsoft.com/en-us/azure/machine-learning/service/</docsUrl>
+    <mailingListUrl>https://docs.microsoft.com/en-us/azure/machine-learning/service/</mailingListUrl>
+    <bugTrackerUrl>https://docs.microsoft.com/en-us/azure/machine-learning/service/</bugTrackerUrl>
+    <releaseNotes>https://docs.microsoft.com/en-us/azure/machine-learning/service/</releaseNotes>
+    <dependencies>
+      <!--
+      <dependency id="visualstudio2015enterprise" />
+      <dependency id="xamarin" />
+      -->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\ChocolateyInstall.ps1" />
+  </files>
+</package>
