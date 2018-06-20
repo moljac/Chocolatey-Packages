@@ -1,9 +1,10 @@
-$version = '1.0.0.0'
+$version = '1.4.1'
 
 $packageName = 'xamarin.interactive.aka.workbooks.inspector' 
 $installerType = 'msi' 
+# https://dl.xamarin.com/interactive/XamarinInteractive-1.4.1.msi
 $url = 'https://dl.xamarin.com/interactive/XamarinInteractive-' + $version + '.msi' 
-$checksum32 = '3D18FF404995B731C4F0B94B97B44A7F604AE393D712EA81FC87477AB8CD975F' 
+$checksum32 = '' 
 $checksumtype32 = 'sha256'
 $silentArgs = "/Passive /NoRestart /Log $env:temp\xamarin.log" 
 $validExitCodes = @(0, 3010)
